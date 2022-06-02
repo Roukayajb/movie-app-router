@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+.checked {
+  color: orange;
+}
+.d-flex{
+  position: relative;
+  display: block !important;
+}
+.d-flex .tt{
+  position: absolute;
+  top: 6px;
+    right: 10px;
+}
+.cc{
+  width: 325px;
+}
+.container-fluid{
+  justify-content: space-around !important;
+}
+span.fa.fa-star {
+  font-size: 20px !important;
+}
+.col-md-4.col-6 {
+  margin-bottom: 30px !important;
+}
+.btn{
+  position: absolute;
+  right: 12px;
+  bottom: 0;
+}
+.re{
+  position: relative;
+  height: 55px;
+  margin-bottom: 10px;
+}
+
+.card{
+  border: 1px solid rgb(58 58 58 / 56%) !important;
+  border-radius: 0.5rem !important;
+  transition: transform 0.1s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.4, 1.15);
+}
+
+.card:hover{
+  box-shadow: 10px 10px 28px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 28px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 28px 0px rgba(0,0,0,0.75);
+transform: scale(1.1);
+}
+a{
+  color: var(--bs-body-color) !important;
+  text-decoration: none !important;
+}
+.back{
+  left: 8%;
+  right: auto !important;
+  bottom: auto !important;
+}
+svg {
+  vertical-align: middle;
+  width: 29px;
+}
